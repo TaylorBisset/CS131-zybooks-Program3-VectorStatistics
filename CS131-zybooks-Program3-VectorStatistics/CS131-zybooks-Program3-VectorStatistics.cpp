@@ -34,7 +34,13 @@ int main()
     cout << "Maximum: " << maxValue << endl;
 
     // Step 2: Calculate mean
-    /* Type your code here. */
+    int sum = 0;
+    for (int i = 0; i < count; i++)
+    {
+        sum += nums[i];
+    }
+    double mean = (1.0 * sum) / count;
+    cout << fixed << setprecision(1) << "Mean: " << mean << endl;
 
     // Step 3: Check if palindrome
     /* Type your code here. */
