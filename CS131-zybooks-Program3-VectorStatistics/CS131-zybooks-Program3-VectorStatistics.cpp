@@ -58,7 +58,17 @@ int main()
     sort(nums.begin(), nums.end());
 
     // Step 4: Find and output median
-    /* Type your code here. */
+    double median = 0; 
+    
+    if (nums[count % 2 == 0])
+    {
+        median = (nums[count / 2.0 - 1] + nums[count / 2.0]) / 2.0;
+    }
+    else
+    {
+        median = nums[count] / 2.0;
+    }
+    cout << "Median: " << median << endl;
 
     // Step 5: Find and output mode
     /* Type your code here. */
