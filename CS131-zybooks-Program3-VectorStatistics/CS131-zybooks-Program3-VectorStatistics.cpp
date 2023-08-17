@@ -71,7 +71,25 @@ int main()
     cout << "Median: " << median << endl;
 
     // Step 5: Find and output mode
-    /* Type your code here. */
+    int mode = nums[0];
+    int freq = 0;
+    int maxFreq = 0;
+    for (int i = 0; i < count; i++)
+    {
+        for (int j = 0; j < count; j++)
+        {
+            if (nums[i] == nums[j])
+            {
+                freq++;
+                if (freq > maxFreq)
+                {
+                    maxFreq = freq;
+                    mode = nums[i];
+                }
+            }
+        }
+    }
+    cout << "Mode: " << mode << endl;
 
     return 0;
 }
