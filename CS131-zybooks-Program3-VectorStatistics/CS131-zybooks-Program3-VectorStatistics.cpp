@@ -108,7 +108,11 @@ Maximum: 5
 Mean: 2.8
 Palindrome: true
 
-Step 4 (1 pt). main() includes a call to sort(), which sorts the vector elements into ascending order. Do not sort the vector before step 4. After sorting, identify the median. The median is located in the middle of the vector if the vector's size is odd. Otherwise, the median is the average of the middle two values. Output the median with one decimal place. Submit for grading to confirm four tests pass.
+Step 4 (1 pt). main() includes a call to sort(), which sorts the vector elements into ascending order. 
+Do not sort the vector before step 4. After sorting, identify the median. 
+The median is located in the middle of the vector if the vector's size is odd. 
+Otherwise, the median is the average of the middle two values. Output the median with one decimal place. 
+Submit for grading to confirm four tests pass.
 
 Ex: If input is:
 
@@ -121,7 +125,10 @@ Mean: 4.8
 Palindrome: false
 Median: 5.5
 
-Step 5 (3 pts). Challenging! Identify the mode after the vector is sorted in ascending order. The mode is the value that appears most frequently. Assume only one mode exists. Hint: Use a loop to process each vector element, looking for the longest sequence of identical values. Submit for grading to confirm all tests pass.
+Step 5 (3 pts). Challenging! Identify the mode after the vector is sorted in ascending order. 
+The mode is the value that appears most frequently. Assume only one mode exists. 
+Hint: Use a loop to process each vector element, looking for the longest sequence of identical values. 
+Submit for grading to confirm all tests pass.
 
 Ex: If input is:
 
