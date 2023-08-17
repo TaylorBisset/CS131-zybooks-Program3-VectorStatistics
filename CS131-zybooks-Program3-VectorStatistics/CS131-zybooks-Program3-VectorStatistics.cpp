@@ -43,7 +43,16 @@ int main()
     cout << fixed << setprecision(1) << "Mean: " << mean << endl;
 
     // Step 3: Check if palindrome
-    /* Type your code here. */
+    bool palindromeCheck = true;
+    for (int i = 0; i < count; i++)
+    {
+        if (nums[i] != (nums[count - 1 - i]))
+        {
+            palindromeCheck = false;
+            break;
+        }
+    }
+    cout << "Palindrome: " << (palindromeCheck ? "true" : "false") << endl;
 
     // Sort vector elements in ascending order
     sort(nums.begin(), nums.end());
