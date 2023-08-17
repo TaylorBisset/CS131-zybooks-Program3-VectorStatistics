@@ -21,8 +21,17 @@ int main()
 
     for (int i = 0; i < count; i++)
     {
-
+        if (nums[i] < minValue)
+        {
+            minValue = nums[i];
+        }
+        if (nums[i] > maxValue)
+        {
+            maxValue = nums[i];
+        }
     }
+    cout << "Minimum: " << minValue << endl;
+    cout << "Maximum: " << maxValue << endl;
 
     // Step 2: Calculate mean
     /* Type your code here. */
