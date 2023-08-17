@@ -4,7 +4,8 @@
 #include <algorithm>                 // for sort()
 using namespace std;
 
-int main() {
+int main() 
+{
     int count;
 
     // Step 0: Input values
@@ -15,7 +16,13 @@ int main() {
     }
 
     // Step 1: Find minimum and maximum values
-    /* Type your code here. */
+    int minValue = nums[0];
+    int maxValue = nums[0];
+
+    for (int i = 0; i < count; i++)
+    {
+
+    }
 
     // Step 2: Calculate mean
     /* Type your code here. */
